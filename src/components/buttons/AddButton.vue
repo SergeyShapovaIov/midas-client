@@ -3,7 +3,7 @@
 </script>
 
 <template>
- <!--здесь htlm код для элемента-->
+ <button> хорошо </button>
 </template>
 
 <style scoped>
