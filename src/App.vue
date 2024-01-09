@@ -3,8 +3,11 @@
 </script>
 
 <template>
+
+  <add-button></add-button>
   
- <RouterView/>
+  <confirm-button style="margin-top:50px"></confirm-button>
+
 </template>
 
 <style scoped>
