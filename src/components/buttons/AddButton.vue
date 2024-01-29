@@ -5,10 +5,11 @@
 <template>
 <button>
     <svg width="24.1" height="26" viewBox="0 0 26 25" fill="none"  xmlns="http://www.w3.org/2000/svg">
-<path d="M4.28475 24.1011L1.57399 13.3228H0V7.23318H6.00448L8.94843 0L10.639 0.657562L7.9574 7.26177H18.0135L15.361 0.657562L17.0516 0L19.9955 7.23318H26V13.3228H24.426L21.7152 24.1011H4.28475ZM20.3161 22.3285L22.5897 13.3514H3.43946L5.71301 22.3285H20.3161ZM24.1928 11.5502V9.06291H1.83632V11.5502H24.1928Z" fill="black"/>
-<path d="M13.9327 14.838H12.0963V21.2707H13.9327V14.838Z" fill="black"/>
-<path d="M17.4305 14.838H15.5942V21.2707H17.4305V14.838Z" fill="black"/>
-<path d="M10.435 14.838H8.59865V21.2707H10.435V14.838Z" fill="black"/>
+
+        <path  d="M4.28475 24.1011L1.57399 13.3228H0V7.23318H6.00448L8.94843 0L10.639 0.657562L7.9574 7.26177H18.0135L15.361 0.657562L17.0516 0L19.9955 7.23318H26V13.3228H24.426L21.7152 24.1011H4.28475ZM20.3161 22.3285L22.5897 13.3514H3.43946L5.71301 22.3285H20.3161ZM24.1928 11.5502V9.06291H1.83632V11.5502H24.1928Z" fill="black"/>
+        <path  d="M13.9327 14.838H12.0963V21.2707H13.9327V14.838Z" fill="black"/>
+        <path  d="M17.4305 14.838H15.5942V21.2707H17.4305V14.838Z" fill="black"/>
+        <path  d="M10.435 14.838H8.59865V21.2707H10.435V14.838Z" fill="black" />
 </svg>
 
 
@@ -17,19 +18,29 @@
 
 <style scoped>
 button {
-    padding:none; /* Расстояние от текста до края */
-    background-color: #FBD13E; /* Цвет фона */  
-    border:none; /* Убираем рамку */
+    background-color: #FBD13E; 
+    border:none; 
+    box-shadow:#0F0F11 ;
+    transition: 0.3s;
+    width: 42px;
+    height: 42px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 button:hover {
     background-color: #DBB325;
 }
 button:active {
-    background-color: #000;
+    background-color: #000000;
     
 }
-button:active svg{
-
+svg :active {
+    fill:#FBD13E;
 }
+
+
+
 
 </style>
