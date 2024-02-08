@@ -1,24 +1,26 @@
-c<script setup>
+<script setup>
 //здесб js код для элемента
 </script>
 
 <template>
  <button> 3 вида </button>
  <button disabled> 3 вида</button>
- <button2> подтвердить заказ </button2>
-</template>
+ <button class="confirm"> подтвердить заказ</button>
+</template> 
+
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 button {
     width: 128px;
     height: 42px;
     background-color: transparent;
     background-repeat: no-repeat;
     border:1px solid #FBD13E;
-    padding:5 5 5 5;
+    padding:5px;
     box-shadow:#0F0F11;
     /*transition: 0.3s;*/
-    font-family: Montserrat, sans-serif ;
+    font-family: Montserrat;
     font-size: 13px;
     font-weight: 700;
     line-height: 22px;
@@ -58,11 +60,11 @@ button:disabled {
     }
 
 
-button2 {
+.confirm {
     width: 234px;
     height: 42px;
     background-color: #FBD13E;
-    padding:5 5 5 5;
+    padding:5px;
     box-shadow:#0F0F11;
     /*transition: 0.3s;*/
     font-family: Montserrat, sans-serif ;
@@ -70,16 +72,19 @@ button2 {
     font-weight: 700;
     line-height: 22px;
     letter-spacing: 10%;
-    text-align: center;
+    text-align:center;
     color: #000;
     text-transform: uppercase;  
+    display: grid;
+    place-items: center;
+    font-style: normal; 
     }
-button2:hover {
+.confirm:hover {
     background-color: #DBB325;
     color: #000;
     }
 
-button2:active {
+.confirm:active {
         background-color:#000;
         color: #FBD13E;
     }
