@@ -6,7 +6,7 @@
 
   <add-button></add-button>
   
-  <confirm-button style="margin-top:50px"></confirm-button>
+  <confirm-button ></confirm-button>
 
 </template>
 
