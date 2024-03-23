@@ -5,9 +5,9 @@ import ArrowComponent from '@/components/buttons/ArrowComponent.vue'
 
 <template>
 
-  <add-button></add-button>
+ <!-- <add-button></add-button>
   
-  <confirm-button ></confirm-button>
+  <confirm-button ></confirm-button>-->
 
   <arrow-component></arrow-component>
 

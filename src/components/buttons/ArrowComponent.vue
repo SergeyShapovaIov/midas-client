@@ -3,9 +3,32 @@
 </script>
 
 <template>
-
+<button>
+    <svg  width="56" height="56" viewBox="0 0 56 56" fill="red"xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M56 28C56 43.464 43.464 56 28 56C12.536 56 0 43.464 0 28C0 12.536 12.536 0 28 0C43.464 0 56 12.536 56 28ZM54.88 28C54.88 42.8454 42.8454 54.88 28 54.88C13.1546 54.88 1.12 42.8454 1.12 28C1.12 13.1546 13.1546 1.12 28 1.12C42.8454 1.12 54.88 13.1546 54.88 28ZM34.7336 19.6L43.1198 27.9932L43.1131 27.9999L43.12 28.0068L34.7338 36.4L33.2489 34.9139L39.1002 29.0576H14.28V26.9559H39.1137L33.2487 21.0861L34.7336 19.6Z" fill="black"/>
+    </svg>
+</button>
 </template>
 
 <style scoped>
-
+button {
+    width: 56px;
+    height: 56px;
+    background-color: transparent; 
+    border-radius: 50%; 
+    border: none; 
+    vertical-align: top; 
+}
+button:hover {
+    background-color:transparent; 
+         svg {
+            fill-opacity: 0%;
+    }
+}
+button:active {
+    background-color: transparent; 
+        svg {
+            fill-opacity: 30%;
+   }
+}
 </style>
